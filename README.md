@@ -1,1 +1,6 @@
 # Aging-Populations
+This is an interactive web map that depicts the world's top 50 aging populations. The Map is based on a 2023 article by the BBC titled “Japan Population: One in 10 people now aged 80 or older” The data from this map is from the Population Reference Bureau that was turned into a .csv file and joined with a world administrative boundary shapefile that was then turned into a .geojson file. 
+
+The data is displayed as a choropleth map using green and blue hues on a leaflet provider map. The header is centered at the top of the map. To the left of the map, there is a section box that describes what the map is depicting as well as a link to the BBC article. When the mouse is hovering over the box the opacity changes from .4 to 1 in order to see the information clearly. At the bottom right of the screen, the legend is shown that corresponds with the data and shading of the map. 
+
+Each country on the map has a popup feature that provides information on the country's name, its ranking, the percentage of older people, and an image of each country's population pyramid. When a country is clicked on, a zoom-in action occurs. When the zoomed-in country is clicked, the map zooms out to its original scale.  
